@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Page-1" id="vsIt8Ime6yggdHBBbp5e">
+    <mxGraphModel dx="1106" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yih0pYRJ17aW4puea7TW-1" value="Task-Sheet 1-5-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
+          <mxGeometry x="190" y="10" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9xgvPzp9QqvfEmpNq7CH-1" value="School&#xa;----------------------&#xa;+ name: String&#xa;+ location: String" style="shape=swimlane;whiteSpace=wrap;html=1;startSize=70;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9xgvPzp9QqvfEmpNq7CH-2" value="Department&#xa;----------------------&#xa;+ name: String" style="shape=swimlane;whiteSpace=wrap;html=1;startSize=70;" parent="1" vertex="1">
+          <mxGeometry x="320" y="80" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9xgvPzp9QqvfEmpNq7CH-3" value="Office&#xa;----------------------&#xa;+ roomNumber: String" style="shape=swimlane;whiteSpace=wrap;html=1;startSize=70;" parent="1" vertex="1">
+          <mxGeometry x="320" y="240" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9xgvPzp9QqvfEmpNq7CH-4" value="FacultyRoom&#xa;----------------------&#xa;+ isMain: Boolean" style="shape=swimlane;whiteSpace=wrap;html=1;startSize=70;" parent="1" vertex="1">
+          <mxGeometry x="320" y="420" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9xgvPzp9QqvfEmpNq7CH-5" value="Teacher&#xa;----------------------&#xa;+ name: String&#xa;+ isMaster: Boolean" style="shape=swimlane;whiteSpace=wrap;html=1;startSize=70;" parent="1" vertex="1">
+          <mxGeometry x="560" y="80" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9xgvPzp9QqvfEmpNq7CH-6" style="endArrow=block;" parent="1" source="9xgvPzp9QqvfEmpNq7CH-1" target="9xgvPzp9QqvfEmpNq7CH-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9xgvPzp9QqvfEmpNq7CH-7" style="endArrow=block;" parent="1" source="9xgvPzp9QqvfEmpNq7CH-2" target="9xgvPzp9QqvfEmpNq7CH-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9xgvPzp9QqvfEmpNq7CH-8" style="endArrow=block;" parent="1" source="9xgvPzp9QqvfEmpNq7CH-2" target="9xgvPzp9QqvfEmpNq7CH-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9xgvPzp9QqvfEmpNq7CH-9" style="endArrow=block;" parent="1" source="9xgvPzp9QqvfEmpNq7CH-3" target="9xgvPzp9QqvfEmpNq7CH-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
